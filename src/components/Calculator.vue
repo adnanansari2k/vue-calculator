@@ -77,6 +77,7 @@ export default {
       this.operatorClicked = true;
     },
     add() {
+      this.display = this.display.value + "+" ;
       this.operator = (a, b) => a + b;
       this.previous = this.display;
       this.operatorClicked = true;
